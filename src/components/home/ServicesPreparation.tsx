@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useTranslation, Trans } from "react-i18next";
+import { useTranslation} from "react-i18next";
 import plantage from "../../assets/UNM/plantage.jpg";
 import triage from "../../assets/UNM/triage.jpeg";
 import sechage from "../../assets/UNM/sechage.jpeg";
