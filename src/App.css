@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+.clip-diagonal {
+  clip-path: polygon(
+    50% 0%,   /* Milieu en haut */
+    100% 0%,  /* Coin supérieur droit */
+    100% 100%, /* Coin inférieur droit */
+    50% 100%, /* Milieu en bas */
+    0% 100%,   /* Coin inférieur gauche */
+    0% 0%     /* Coin supérieur gauche */
+  );
+}
+
+
+/* Cacher le bandeau Google Translate */
+iframe.goog-te-banner-frame {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+}
+

@@ -1,0 +1,185 @@
+{
+"navbar": {
+      "liens": [
+        { "texte": "Home" },
+        { "texte": "About Us" },
+        { "texte": "Our Services" },
+        { "texte": "Our Products" },
+        { "texte": "Our Commitments" },
+        { "texte": "Our Galleries" },
+        { "texte": "Contact" }
+      ]
+    },
+
+"accueil": {
+      "titre": "UNM",
+      "sousTitre": "Northern Universe of Madagascar",
+      "description": "UNM is a Malagasy company founded in Sambava, in the heart of the SAVA region, committed to the valorization, processing, and export of Madagascar vanilla. Driven by passion and expertise…",
+      "bouton": "See More"
+    },
+
+"quiSommesNous": {
+      "titre": "Who Are We",
+      "intro": {
+        "titreIntro": "UNM: Northern Universe of Madagascar",
+        "paragraphe1": "UNM was founded in 2016 in Sambava, Madagascar, by a passionate entrepreneur with a unique mission: to share with the world the incomparable and unique flavor of Madagascar vanilla. Located in the north of the country, in the SAVA region, the heart of vanilla production.",
+        "paragraphe2": "In 2024, UNM reached a major milestone by exporting several tons of vanilla, providing stable income to about fifty workers during a particularly difficult year in Madagascar. Though our team is small, years of collaboration have built strong bonds that we consider a family."
+      },
+      "liste": [
+        "Production of the highest quality vanilla",
+        "Stability and support for around fifty workers",
+        "A close-knit team with a family spirit",
+        "Passion and commitment towards ambitious goals"
+      ],
+      "citation": "Over time, we have acquired unique expertise and know-how to deliver an impeccable quality product to our clients.",
+      "piliers": [
+        {
+          "titre": "Mastery and Expertise",
+          "description": "Over the years, we have developed unique know-how that allows us to turn every action into excellence and every product into a quality masterpiece."
+        },
+        {
+          "titre": "Customer Orientation",
+          "description": "Every decision we make, every detail we perfect, is designed to provide our clients with trust, satisfaction, and peace of mind."
+        },
+        {
+          "titre": "Impeccable Quality",
+          "description": "We are committed to providing flawless products, reflecting our rigor, passion, and pursuit of excellence."
+        }
+      ]
+    },
+
+"preparations": {
+      "titre": "Preparation Processes",
+      "etapes": [
+        {
+          "titre": "1. Planting and Growth",
+          "description": "Vanilla takes several years to develop. It takes about 3 to 4 years after planting for the first flowers to appear."
+        },
+        {
+          "titre": "2. Manual Pollination",
+          "description": "Each flower is hand-pollinated. Growers use fine sticks to unite the male and female parts of the flower, a meticulous work lasting a few seconds per flower."
+        },
+        {
+          "titre": "3. Pod Maturation",
+          "description": "After pollination, the pods take about nine months to mature before they are ready for harvest."
+        },
+        {
+          "titre": "4. Preparation and Curing",
+          "description": "The pods are boiled, dried, and fermented for six months. This process develops their rich and complex aromas."
+        },
+        {
+          "titre": "5. Sorting and Export",
+          "description": "Finally, the pods are carefully sorted, graded, and packaged before being shipped worldwide."
+        }
+      ]
+    },
+
+"services": {
+      "titre": "Our Services",
+      "intro": "Vanilla is often unfairly described as simple or ordinary. Yet it is anything but that. Appreciated worldwide for its sweet, creamy, and floral notes, vanilla is the result of patience, precision, and true expertise.",
+      "sousTitre": "The product qualities we",
+      "miseEnAvant": "prepare.",
+      "description": "Producing high-quality vanilla is meticulous work: about 5 to 7 kg of green pods are needed to obtain 1 kg of prepared vanilla, which explains why vanilla remains one of the most expensive spices in the world.",
+      "etapes": [
+        {
+          "titre": "Harvesting Pods",
+          "texte": "Vanilla pods are carefully hand-picked once they reach full maturity to ensure optimal quality."
+        },
+        {
+          "titre": "Sun Drying",
+          "texte": "After blanching, the pods are exposed to tropical sunlight for several days to develop their aromas and characteristic color."
+        },
+        {
+          "titre": "Powder Processing",
+          "texte": "The dried pods are then ground into a fine natural powder, used in gastronomy and cosmetics."
+        },
+        {
+          "titre": "Packaging",
+          "texte": "Vanilla is sorted, graded, and carefully packaged in airtight boxes to preserve quality before export."
+        }
+      ]
+    },
+
+"produits": {
+      "titre": "The Qualities of Our Products",
+      "articles": [
+        {
+          "id": 1,
+          "nom": "Vanilla Pods",
+          "description": "Our Madagascar vanilla pods are distinguished by their aromatic richness and supple texture. Each pod releases an intense and natural fragrance, symbolizing quality and authenticity.",
+          "caracteristiques": [
+            "Supple, glossy, and slightly moist",
+            "Sweet and floral aroma, no acidic notes",
+            "Grade A: long, plump, ideal for pastry",
+            "Grade B: drier, perfect for extracts"
+          ],
+          "info": "Store away from heat and light in an airtight container."
+        },
+        {
+          "id": 2,
+          "nom": "Vanilla Seeds",
+          "description": "Discover the pure taste with our vanilla seeds, available in two forms: natural powder and freshly extracted caviar from premium pods.",
+          "caracteristiques": [
+            "Vanilla powder: naturally dried seeds",
+            "Vanilla caviar: fresh aromatic seeds",
+            "Concentrated flavor and refined appearance",
+            "Dark, moist seeds, easy to extract"
+          ],
+          "info": "Ideal for fine pastries, ice cream, and gourmet infusions."
+        }
+      ]
+    },
+
+"engagements": {
+      "titre": "Our Mission and Values",
+      "description": "At <1>UNM Company</1>, we share with the world the exceptional flavor and heritage of Madagascar vanilla — while creating sustainable opportunities for local communities. We ensure every pod reflects the dedication, expertise, and pride of our producers.",
+      "articles": [
+        "Ensure superior, authentic, and premium vanilla.",
+        "Maintain transparency and integrity in all our relationships, from producers to clients.",
+        "Promote responsible farming practices and fair trade to protect people and the environment.",
+        "Support and empower local workers and their families in the SAVA region.",
+        "Share our passion for vanilla, a symbol of craftsmanship, patience, and pride for Madagascar."
+      ]
+    },
+
+"footer": {
+      "liens": [
+        {
+          "titre": "Support",
+          "articles": [
+            "Home",
+            "About Us",
+            "Our Products",
+            "Our Profession",
+            "Our Commitments",
+            "Our Certifications"
+          ]
+        },
+        {
+          "titre": "Information & Contact",
+          "articles": [
+            "Address: Bel Souvenir, Ampandrozonana Sector n°4, CU Sambava",
+            "Email: lm425600@gmail.com",
+            "Contact: +261 34 76 321 28"
+          ]
+        }
+      ],
+      "langue": "English (En)",
+      "copyright": "© 2025 <1>Mahiratra Group</1> Antalaha."
+    },
+
+"formulaireContact": {
+      "titre": "Contact Us",
+      "placeholders": {
+        "nomComplet": "Full Name",
+        "email": "Email",
+        "message": "Your message..."
+      },
+      "bouton": "Send"
+    },
+
+"gallery": {
+    "title": "Relive our highlights in pictures",
+    "close": "Close"
+  }
+}
