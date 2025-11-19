@@ -1,6 +1,12 @@
 import { useState, useEffect } from "react";
 
-export default function Typewriter({ texts, speed = 200, delay = 1000 }) {
+interface TypewriterProps {
+  texts: string[];
+  speed?: number;
+  delay?: number;
+}
+
+export default function Typewriter({ texts, speed = 200, delay = 1000 }: TypewriterProps) {
   const [current, setCurrent] = useState("");
   const [textIndex, setTextIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
