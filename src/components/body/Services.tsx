@@ -28,7 +28,7 @@ export default function ProductFeatures() {
         transition={{ duration: 0.8 }}
         className="text-4xl md:text-5xl text-center font-bold text-green-700"
       >
-        {t("services.titre")} <span className="text-4xl md:text-6xl">?</span>
+        {t("services.titre")} 
       </motion.div>
 
       {/* --- Paragraphe d’intro --- */}
@@ -51,10 +51,10 @@ export default function ProductFeatures() {
         whileInView={{ opacity: 1, x: 0 }}
         exit={{ opacity: 0, x: -50 }}
         transition={{ duration: 0.7 }}
-        className="text-2xl md:text-4xl font-bold text-start ml-6 md:ml-30 text-gray-800 my-5 md:my-10"
+        className="text-2xl md:text-4xl font-bold text-green-700 text-center ml-6 md:ml-30 my-5 md:my-10"
       >
-        {t("services.sousTitre")}{" "}
-        <span className="text-green-700">{t("services.miseEnAvant")}</span>
+        {t("services.sousTitre")}
+        {/* <span className="text-green-700">{t("services.miseEnAvant")}</span> */}
       </motion.h2>
 
       {/* --- Paragraphe de description --- */}
@@ -69,7 +69,7 @@ export default function ProductFeatures() {
       </motion.p>
 
       {/* --- Cartes animées --- */}
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-6">
+      <div className="max-w-6xl lg:max-w-full lg:h-[350px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-6">
         {features.map((item, index) => (
           <motion.div
             key={index}
@@ -85,7 +85,7 @@ export default function ProductFeatures() {
               alt={item.titre}
               className="w-full h-64 object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300"
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-end pb-6 text-center text-white bg-black/40">
+            <div className="absolute inset-0 flex flex-col items-center justify-end pb-6 lg:pb-0  lg:justify-start sm:pb-6 md:pt-[170px] text-center text-white bg-black/40">
               <h3 className="text-2xl font-semibold">{item.titre}</h3>
               <p className="text-sm mt-2 px-4 opacity-90">{item.texte}</p>
             </div>

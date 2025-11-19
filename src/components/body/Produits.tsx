@@ -61,14 +61,14 @@ const Products = () => {
                 {product.nom}
               </motion.h3>
 
-              <motion.p
+              {/* <motion.p
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="text-white mb-4"
               >
                 {product.description}
-              </motion.p>
+              </motion.p> */}
 
               <ul className="list-disc list-inside text-xs md:text-sm text-white space-y-2 mb-4">
                 {product.caracteristiques.map((feature, idx) => (

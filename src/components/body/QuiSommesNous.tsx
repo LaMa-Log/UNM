@@ -86,7 +86,7 @@ export default function QuiSommesNous() {
             <motion.ul
               {...motionProps}
               variants={fadeUp}
-              className="w-full md:w-1/2 flex flex-col justify-center space-y-4 items-start text-sm sm:text-base"
+              className="w-full md:w-1/2 flex flex-col justify-center space-y-4 items-start text-sm sm:text-base md:text-3xl md:space-y-10"
             >
               {listItems.map((item, i) => (
                 <motion.li
@@ -98,7 +98,7 @@ export default function QuiSommesNous() {
                   <img
                     src={success}
                     alt="success"
-                    className="w-6 sm:w-6 h-6 sm:h-6 rounded-full object-cover mt-1"
+                    className="w-6 sm:w-6 h-6 sm:h-6 md:w-10 md:h-10 rounded-full object-cover mt-1"
                   />
                   <span>{item}</span>
                 </motion.li>

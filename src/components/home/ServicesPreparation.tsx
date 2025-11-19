@@ -26,7 +26,7 @@ export default function Preparations() {
         viewport={{ amount: 0.3 }}
         className="text-2xl md:text-4xl font-bold text-start ml-6 md:ml-30 text-gray-800 mb-5 md:mb-10"
       >
-         {t("preparations.titre")}
+         {/* {t("preparations.titre")} */}
       </motion.h2>
 
       <div className="flex flex-col gap-16 max-w-6xl mx-auto px-6">

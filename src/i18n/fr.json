@@ -2,19 +2,21 @@
   "navbar": {
     "liens": [
       { "texte": "Accueil" },
-      { "texte": "Qui sommes-nous" },
-      { "texte": "Nos services" },
-      { "texte": "Nos produits" },
-      { "texte": "Nos engagements" },
-      { "texte": "Nos galeries" },
+      { "texte": "Identité & Piliers" },
+      { "texte": "Services" },
+      { "texte": "Produits" },     
+      { "texte": "Missions & Valeurs" },
+      { "texte": "Vanille de Madagascar" },
       { "texte": "Contacts" }
     ]
   },
 
   "accueil": {
-    "titre": "UNM",
-    "sousTitre": "Univers Nord de Madagascar",
-    "description": "UNM est une entreprise malgache fondée à Sambava, au cœur de la région SAVA, engagée dans la valorisation, la transformation et l’exportation de la vanille de Madagascar. Animée par la passion et le savoir-faire…",
+    "txt1": "Bienvenue", 
+    "txt2": "Chez", 
+    "txt3": "UNM", 
+    "sousTitre": "Univers du Nord de Madagascar",
+    "description": "Depuis Sambava, capitale de la vanille dans la région SAVA, nous faisons découvrir au monde le goût et le parfum authentiques de la meilleure vanille de Madagascar, cultivée avec passion et savoir-faire. ",
     "bouton": "Voir +"
   },
 
@@ -22,28 +24,27 @@
     "titre": "Qui Sommes-nous",
     "intro": {
       "titreIntro": "L'UNM : Univers Nord de Madagascar",
-      "paragraphe1": "L’UNM a été fondée en 2016 à Sambava, Madagascar, par un entrepreneur passionné animé d’une mission unique : partager avec le monde la saveur incomparable et unique de la vanille de Madagascar. Située dans le nord du pays, dans la région SAVA qui est le cœur de la production de vanille.",
-      "paragraphe2": "En 2024, l’UNM a franchi une étape majeure en exportant plusieurs tonnes de vanille, assurant ainsi un revenu stable à une cinquantaine de travailleurs lors d’une année particulièrement difficile à Madagascar. Bien que notre équipe soit petite, des années de collaboration ont tissé de solides liens que nous considérons comme une famille."
+      "paragraphe1": "UNM a été fondée en 2016 à Sambava, Madagascar, par son fondateur et directeur général LUO MING. Portée par la passion, l’entreprise est née d’une mission unique: faire voyager le goût et arôme exceptionnel de la vanille de Madagascar jusqu’aux quatre coins du monde.",
+      "paragraphe2": "En 2024, l’UNM a franchi une étape majeure en exportant plusieurs tonnes de vanille, assurant ainsi un revenu stable à une cinquantaine de travailleurs lors d’une année particulièrement difficile à Madagascar. Petite mais soudée, notre équipe est avant tout une famille, unie par des années de collaboration et du même objectif."
     },
     "liste": [
-      "Production de vanille de la plus haute qualité",
-      "Stabilité et soutien pour environ cinquante travailleurs",
-      "Équipe soudée et esprit familial",
-      "Passion et engagement vers des objectifs ambitieux"
+      " Traçabilité",
+      "Qualité",
+      "Durabilité"
     ],
-    "citation": "Nous avons acquis au fil du temps une maîtrise et un savoir-faire unique pour fournir à nos clients un produit de qualité irréprochable.",
+    "citation": "Ces engagements s’appuient sur une chaîne de valeur totalement maîtrisée : de la récolte jusqu’à l’expédition internationale, pour une vanille 100 % traçable, sûre et durable.",
     "piliers": [
       {
-        "titre": "Maîtrise et expertise",
-        "description": "Au fil des années, nous avons développé un savoir-faire unique qui nous permet de transformer chaque geste en excellence et chaque produit en œuvre de qualité."
+        "titre": "Qualité premium",
+        "description": "Sélection rigoureuse, préparation contrôlée et exportation conforme aux standards internationaux : notre vanille répond aux exigences des marchés les plus exigeants."
       },
       {
-        "titre": "Orientation client",
-        "description": "Chaque décision que nous prenons, chaque détail que nous soignons, est pensé pour offrir à nos clients confiance, satisfaction et sérénité."
+        "titre": "Expertise et savoir-faire",
+        "description": "Nos équipes allient méthodes traditionnelles et techniques modernes pour préserver l’arôme naturel, la texture et la richesse aromatique uniques à la vanille de Madagascar."
       },
       {
-        "titre": "Qualité irréprochable",
-        "description": "Nous nous engageons à fournir un produit impeccable, reflet de notre rigueur, de notre passion et de notre exigence pour l’excellence."
+        "titre": "Impact Humain & Social ",
+        "description": "Nous valorisons le travail local, garantissons un revenu équitable et contribuons au développement des communautés productrices de vanille."
       }
     ]
   },
@@ -57,45 +58,45 @@
       },
       {
         "titre": "2. Pollinisation manuelle",
-        "description": "Chaque fleur est pollinisée à la main. Les cultivateurs utilisent de fines tiges pour unir les parties mâle et femelle de la fleur, un travail minutieux qui dure quelques secondes par fleur."
+        "description": "Chaque fleur est fécondée à la main. Les cultivateurs utilisent de fines tiges pour unir les parties mâle et femelle de la fleur, un travail minutieux qui dure quelques secondes par fleur."
       },
       {
         "titre": "3. Maturation des gousses",
-        "description": "Après la pollinisation, les gousses mettent environ neuf mois à mûrir avant d’être prêtes à être récoltées."
+        "description": "Neuf mois sont nécessaires pour obtenir des gousses parfaitement mûres avant d’être prêtes à être récoltées. Seules les meilleures, bien formées et arrivées à pleine maturité, poursuivent le processus."
       },
       {
-        "titre": "4. Préparation et Affinage",
-        "description": "Les gousses sont ébouillantées, séchées et fermentées pendant six mois. Ce processus développe leurs arômes riches et complexes."
+        "titre": "4. Préparation traditionnelle ",
+        "description": "Échaudage, étuvage, séchage au soleil puis affinage : un processus long qui révèle l’arôme, la couleur et la souplesse recherchés dans une vanille premium"
       },
       {
-        "titre": "5. Tri et Exportation",
-        "description": "Enfin, les gousses sont triées, classées et emballées avec soin avant d’être expédiées vers le monde entier."
+        "titre": "5. Conditionnement et conservation",
+        "description": "Les gousses sont calibrées, triées et emballées selon les standards internationaux, puis stockées dans des conditions optimales en prévision des expéditions."
       }
     ]
   },
 
   "services": {
-    "titre": "Quelles sont nos services",
-    "intro": "La vanille est souvent injustement décrite comme étant simple ou banale. Pourtant, elle ne l’est absolument pas. Appréciée dans le monde entier pour ses notes douces, crémeuses et florales, la vanille est le fruit de la patience, de la précision et d’un véritable savoir-faire.",
-    "sousTitre": "Les qualités de produits que nous",
+    "titre": "L’Histoire d’une Vanille d’Exception",
+    "intro": "Animés par une véritable passion pour la vanille, nous maîtrisons et valorisons chaque étape après la récolte, de la sélection des gousses vertes jusqu’à leur exportation afin de partager avec nos clients l’authenticité, la richesse aromatique et le savoir-faire unique derrière chaque gousse.",
+    "sousTitre": "NOS PRODUITS ",
     "miseEnAvant": "préparons.",
-    "description": "Produire une vanille de haute qualité est un travail méticuleux : il faut environ 5 à 7 kg de gousses vertes pour obtenir 1 kg de vanille préparée, ce qui explique pourquoi la vanille demeure l’une des épices les plus coûteuses au monde.",
+    "description": "Que vous recherchiez trois gousses ou plusieurs conteneurs, nous fournissons une vanille premium d’exception à tous : consommateurs, amoureux du goût, fins gourmets, sociétés cosmétiques, cuisiniers créatifs et acteurs du secteur agroalimentaire.",
     "etapes": [
       {
-        "titre": "Récolte des Gousses",
-        "texte": "Les gousses de vanille sont soigneusement récoltées à la main, une fois qu’elles atteignent leur pleine maturité, pour garantir une qualité optimale."
+        "titre": "Gousse de Vanille: Qualité Premium",
+        "texte": "Des gousses charnues, souples et intensément parfumées, classées par différentes longueurs de 15 à 20 cm. Souvent connu sous le nom de gourmet et TK."
       },
       {
-        "titre": "Séchage au Soleil",
-        "texte": "Après l’échaudage, les gousses sont exposées au soleil tropical pendant plusieurs jours afin de développer leurs arômes et leur couleur caractéristique."
+        "titre": "Vanille Cuts",
+        "texte": "Des morceaux de gousses soigneusement découpés, parfaits pour l’infusion et les préparations nécessitant un fort pouvoir aromatique à un coût maîtrisé."
       },
       {
-        "titre": "Transformation en Poudre",
-        "texte": "Les gousses séchées sont ensuite broyées pour obtenir une fine poudre naturelle, utilisée dans la gastronomie et la cosmétique."
+        "titre": "Poudre de Vanille",
+        "texte": "Une poudre 100 % naturelle, obtenue à partir de gousses de vanille séchée puis finement broyée, idéale pour aromatiser pâtisseries, glaces et boissons avec précision et constance."
       },
       {
-        "titre": "Conditionnement",
-        "texte": "La vanille est triée, classée et conditionnée avec soin dans des boîtes hermétiques pour préserver sa qualité avant exportation."
+        "titre": "Caviar de Vanille",
+        "texte": "Des graines de vanille pures contenues à l’intérieur de la gousse, prêtes à l’emploi, offrant une intensité aromatique exceptionnelle pour des créations gastronomiques haut de gamme."
       }
     ]
   },
@@ -105,25 +106,27 @@
     "articles": [
       {
         "id": 1,
-        "nom": "Gousses de vanille",
-        "description": "Nos gousses de vanille de Madagascar se distinguent par leur richesse aromatique et leur texture souple. Chaque gousse libère un parfum intense et naturel, symbole de qualité et d’authenticité.",
+        "nom": "Gousse de vanille de qualité supérieure ",
         "caracteristiques": [
-          "Souples, brillantes et légèrement humides",
-          "Arôme sucré et floral, sans note acide",
-          "Grade A : longues, charnues et idéales pour la pâtisserie",
-          "Grade B : plus sèches, parfaites pour les extraits"
+          "Souplesse parfaite : Se plie sans se casser, témoignant d’une humidité optimale et d’une fraîcheur conservée.",
+          "Charnue et volumineuse : Gousse pleine, généreuse, gage d’une teneur élevée en graines et en arômes.",
+          "Longueur et uniformité :       Généralement de 14 à 18 cm, avec une taille régulière qui reflète une maturation idéale.",
+          "Arôme intense et complexe          Parfum riche, doux, chaud et vanillé, révélant toute la finesse de la vanilline naturelle. ",
+          "Aspect impeccable Couleur brun foncé uniforme, surface légèrement brillante, sans défauts ni cassures, grains visibles à l’intérieur."
+
         ],
         "info": "À conserver à l’abri de la chaleur et de la lumière, dans un récipient hermétique."
       },
       {
         "id": 2,
         "nom": "Graines de vanille",
-        "description": "Découvrez la pureté du goût avec nos graines de vanille, disponibles en deux formes : poudre naturelle et caviar fraîchement extrait de gousses premium.",
         "caracteristiques": [
-          "Poudre de vanille : graines séchées naturellement",
-          "Caviar de vanille : graines fraîches et aromatiques",
-          "Saveur concentrée et visuel raffiné",
-          "Graines foncées, humides et faciles à extraire"
+          "Arôme exceptionnellement intense :     Des graines riches en vanilline naturelle, offrant un parfum profond, chaud et raffiné, idéal pour une utilisation gastronomique.",
+          "Texture fine et régulière : Graines noires, brillantes et homogènes, preuve d’une gousse bien maturée et parfaitement affinée.",
+          " Pureté irréprochable : Issues exclusivement de gousses premium, sans ajout de sucre, d’alcool ou d’arômes artificiels.",
+          " Visuel élégant et haut de gamme :     Les petits grains noirs ajoutent une touche raffinée aux crèmes, pâtisseries et sauces, très appréciée dans la haute cuisine.",
+          "Puissance aromatique immédiate :      Les graines libèrent instantanément leur parfum, permettant d’aromatiser intensément même en petite quantité."
+
         ],
         "info": "Idéal pour la pâtisserie fine, les glaces et les infusions gourmandes."
       }
@@ -131,15 +134,17 @@
   },
 
   "engagements": {
-    "titre": "Notre mission et nos valeurs",
-    "description": "Chez <1>UNM Company</1>, nous partageons au monde l’exceptionnelle saveur et le patrimoine de la vanille de Madagascar — tout en créant des opportunités durables pour les communautés locales. Nous nous engageons à ce que chaque gousse reflète le dévouement, le savoir-faire et la fierté des producteurs.",
+    "titre": "Mission et Vision",
+    "description": "Nous sommes une équipe passionnée et compétente, engagée à produire et exporter une vanille de qualité supérieure dans le respect de nos partenaires et de l’environnement. Notre ambition est d’être un acteur responsable et reconnu de la filière, en garantissant des produits conformes aux normes internationales, parfaitement traçables et d’un impact durable. ",
     "articles": [
-      "Assurer une vanille de qualité supérieure, authentique et premium.",
-      "Maintenir la transparence et l’intégrité dans toutes nos relations, des producteurs aux clients.",
-      "Promouvoir des pratiques agricoles responsables et le commerce équitable pour protéger les personnes et l’environnement.",
-      "Soutenir et autonomiser les travailleurs locaux et leurs familles dans la région SAVA.",
-      "Partager notre passion pour la vanille, symbole d’artisanat, de patience et de fierté pour Madagascar."
-    ]
+      "Intégrité – Nous agissons avec transparence et honnêteté dans chacune de nos décisions.",
+     " Rigueur – Nous appliquons des standards élevés pour garantir la qualité de nos engagements.",
+      "Développement humain – Nous encourageons l’épanouissement et la progression de chaque collaborateur.",
+      "Respect de l’environnement – Nous œuvrons à réduire notre impact écologique et à protéger les ressources naturelles.",
+      " Partenariats durables – Nous construisons des relations solides et responsables pour créer une valeur pérenne dans la filière vanille."
+
+    ],
+    "regles": "UNM applique les exigences des <1> normes FSSC 22000, ISO/TS 22002-1 et HACCP </1>, garantissant sécurité, qualité et transparence à chaque étape."
   },
 
   "footer": {
@@ -148,11 +153,12 @@
         "titre": "Support",
         "articles": [
           "Accueil",
-          "Qui Sommes-nous",
-          "Nos Produits",
-          "Notre Métier",
-          "Nos Engagements",
-          "Nos Certifications"
+          "Identité & Piliers",
+          "Services",
+          "Produits",
+          "Missions & Valeurs",
+          "Vanille de Madagascar",
+          "Contacts"
         ]
       },
       {
@@ -164,6 +170,7 @@
         ]
       }
     ],
+    "slogan":"Un arôme d’exception, porté par la passion dans chaque gousse.",
     "langue": "Français (Fr)",
     "copyright": "© 2025 Mahiratra Groupe Antalaha."
   },

@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import photo1 from "../../assets/UNM/photo1.jpeg";
 import { useTranslation } from "react-i18next";
+import Typewriter from "../head/typerwrite";
+
 
 export default function SlideHome() {
   const { t } = useTranslation();
@@ -35,13 +37,13 @@ export default function SlideHome() {
         initial={{ opacity: 0, x: 80 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.2, ease: "easeOut" }}
-        className="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start px-6 md:px-20 my-6 md:my-20 gap-6 h-1/2 md:h-full text-white text-center md:text-left"
+        className="w-full md:w-1/2 flex flex-col justify-center items-center  md:items-start px-6 md:px-20 my-6 md:my-20 gap-6 h-1/2 md:h-full text-white text-center md:text-left"
       >
-        <div className="w-full mb-2 md:mb-4">
-          <h1 className="text-6xl sm:text-7xl md:text-[10rem] font-bold leading-none">
-            {t("accueil.titre")}
+        <div className="w-full mb-2 md:mb-10 ">
+          <h1 className="text-6xl sm:text-7xl md:text-[5rem] xl:text-[7rem] mb-4 font-bold leading-none">
+            <Typewriter texts={[t("accueil.txt1"), t("accueil.txt2"), t("accueil.txt3")]} />
           </h1>
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-medium tracking-tight">
+          <h2 className="text-xl sm:text-2xl md:text-xl md:ml-3 font-medium tracking-tight">
             {t("accueil.sousTitre")}
           </h2>
         </div>

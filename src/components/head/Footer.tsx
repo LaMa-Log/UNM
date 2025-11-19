@@ -1,11 +1,15 @@
 import { motion } from "framer-motion";
-import { GlobeIcon, TwitterLogoIcon, InstagramLogoIcon } from "@radix-ui/react-icons";
+import {
+  GlobeIcon,
+  TwitterLogoIcon,
+  InstagramLogoIcon,
+} from "@radix-ui/react-icons";
 import MessageForm from "./form";
 import { useTranslation, Trans } from "react-i18next";
 
 const Footer = () => {
   const { t } = useTranslation();
-  // fr.json uses `footer.liens` with objects containing `titre` and `articles`
+
   const footerLinks = t("footer.liens", { returnObjects: true }) as Array<{
     titre: string;
     articles: string[];
@@ -18,15 +22,18 @@ const Footer = () => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ amount: 0.3, once: true }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className=" w-full mt-10 px-6 py-10 md:px-20 md:py-16 bg-green-700 text-white"
+      className="w-full mt-10 px-6 py-14 md:px-20 md:py-16 bg-green-700 text-white"
     >
+      {/* Liens + Formulaire */}
       <div className="flex flex-col md:flex-row justify-between gap-12">
         {footerLinks.map((section, idx) => (
-          <div key={idx}>
+          <div key={idx} className="w-full md:w-auto">
             <h4 className="font-bold mb-4 text-lg">{section.titre}</h4>
             <ul className="space-y-2 font-light">
               {section.articles.map((item, i) => (
-                <li key={i} className="hover:underline cursor-pointer">{item}</li>
+                <li key={i} className="hover:underline cursor-pointer">
+                  {item}
+                </li>
               ))}
             </ul>
           </div>
@@ -37,12 +44,27 @@ const Footer = () => {
         </div>
       </div>
 
+      {/* Slogan mieux placé */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ amount: 0.3, once: true }}
+        transition={{ duration: 0.9, delay: 0.2 }}
+        className="flex justify-center items-center my-15 text-center md:text-left text-xl md:text-3xl uppercase font-bold tracking-wide" >
+        <h1>{t("footer.slogan")}</h1>
+      </motion.div>
+
+      {/* Bas du footer */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ amount: 0.3, once: true }}
-        transition={{ duration: 0.9, delay: 0.2 }}
-        className="border-t border-green-500 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-sm gap-4"
+        transition={{ duration: 0.9, delay: 0.3 }}
+        className="
+          border-t border-green-500 mt-10 pt-6
+          flex flex-col md:flex-row justify-between items-center
+          text-sm gap-6
+        "
       >
         <div className="text-center md:text-left">
           <Trans i18nKey="footer.copyright">
@@ -59,6 +81,7 @@ const Footer = () => {
             <GlobeIcon className="w-5 h-5" />
             <span>{t("footer.langue")}</span>
           </motion.div>
+
           <div className="flex space-x-4">
             <motion.a
               href="#"
