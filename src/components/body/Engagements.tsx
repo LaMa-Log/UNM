@@ -27,7 +27,7 @@ export default function Engagements() {
         {/* --- Couche d’ombre --- */}
         <div>
           <div className="absolute inset-0 bg-black/40 md:hidden z-0"></div>
-          <div className="absolute inset-0 hidden md:block bg-gradient-to-l from-green-900/85 via-green-800/70 to-transparent z-0"></div>
+          <div className="absolute inset-0 hidden md:block bg-linear-to-l from-green-900/85 via-green-800/70 to-transparent z-0"></div>
         </div>
 
         {/* --- Contenu principal --- */}

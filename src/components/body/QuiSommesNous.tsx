@@ -129,7 +129,7 @@ export default function QuiSommesNous() {
               className="absolute inset-0 w-full h-full object-cover rounded-[4rem] sm:rounded-[6rem] md:rounded-[8rem]"
             />
 
-            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-[8rem] " />
+            <div className="absolute inset-0 bg-linear-to-t from-black/20 to-transparent rounded-[8rem] " />
 
             {/* Piliers desktop */}
             <div className="absolute hidden md:grid bottom-0 w-full grid-cols-3 gap-6 transform translate-y-1/2 z-20">
