@@ -76,7 +76,7 @@ const Products = () => {
                 ))}
               </ul>
 
-              <p className="text-sm text-white">{product.info}</p>
+              {/* <p className="text-sm text-white">{product.info}</p> */}
             </div>
           </motion.div>
         ))}

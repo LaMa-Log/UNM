@@ -46,6 +46,9 @@ export default function SlideHome() {
           <h2 className="text-xl sm:text-2xl md:text-xl md:ml-3 font-medium tracking-tight">
             {t("accueil.sousTitre")}
           </h2>
+          <p className="text-[14px] sm:text-[14px] md:text-[16px] md:ml-3 font-medium tracking-tight">
+            {t("accueil.sousTitre1")}
+          </p>
         </div>
 
         <p className=" text-base md:text-xl leading-relaxed max-w-lg">

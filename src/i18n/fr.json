@@ -3,10 +3,10 @@
     "liens": [
       { "texte": "Accueil" },
       { "texte": "Identité & Piliers" },
-      { "texte": "Services" },
+      { "texte": "Vanille de Madagascar" },
       { "texte": "Produits" },     
       { "texte": "Missions & Valeurs" },
-      { "texte": "Vanille de Madagascar" },
+      { "texte": "Photos" },
       { "texte": "Contacts" }
     ]
   },
@@ -16,6 +16,7 @@
     "txt2": "Chez", 
     "txt3": "UNM", 
     "sousTitre": "Univers du Nord de Madagascar",
+    "sousTitre1":"Société préparateur et exportateur de Vanille (Vanilla Planifolia)",
     "description": "Depuis Sambava, capitale de la vanille dans la région SAVA, nous faisons découvrir au monde le goût et le parfum authentiques de la meilleure vanille de Madagascar, cultivée avec passion et savoir-faire. ",
     "bouton": "Voir +"
   },
@@ -110,9 +111,9 @@
         "caracteristiques": [
           "Souplesse parfaite : Se plie sans se casser, témoignant d’une humidité optimale et d’une fraîcheur conservée.",
           "Charnue et volumineuse : Gousse pleine, généreuse, gage d’une teneur élevée en graines et en arômes.",
-          "Longueur et uniformité :       Généralement de 14 à 18 cm, avec une taille régulière qui reflète une maturation idéale.",
-          "Arôme intense et complexe          Parfum riche, doux, chaud et vanillé, révélant toute la finesse de la vanilline naturelle. ",
-          "Aspect impeccable Couleur brun foncé uniforme, surface légèrement brillante, sans défauts ni cassures, grains visibles à l’intérieur."
+          "Longueur et uniformité : Généralement de 14 à 18 cm, avec une taille régulière qui reflète une maturation idéale.",
+          "Arôme intense et complexe : Parfum riche, doux, chaud et vanillé, révélant toute la finesse de la vanilline naturelle. ",
+          "Aspect impeccable : Couleur brun foncé uniforme, surface légèrement brillante, sans défauts ni cassures, grains visibles à l’intérieur."
 
         ],
         "info": "À conserver à l’abri de la chaleur et de la lumière, dans un récipient hermétique."
@@ -134,7 +135,8 @@
   },
 
   "engagements": {
-    "titre": "Mission et Vision",
+    "titre1": "Mission et Vision",
+    "titre2": "Valeurs",
     "description": "Nous sommes une équipe passionnée et compétente, engagée à produire et exporter une vanille de qualité supérieure dans le respect de nos partenaires et de l’environnement. Notre ambition est d’être un acteur responsable et reconnu de la filière, en garantissant des produits conformes aux normes internationales, parfaitement traçables et d’un impact durable. ",
     "articles": [
       "Intégrité – Nous agissons avec transparence et honnêteté dans chacune de nos décisions.",
@@ -154,10 +156,10 @@
         "articles": [
           "Accueil",
           "Identité & Piliers",
-          "Services",
+          "Vanille de Madagascar",
           "Produits",
           "Missions & Valeurs",
-          "Vanille de Madagascar",
+          "Photos",
           "Contacts"
         ]
       },

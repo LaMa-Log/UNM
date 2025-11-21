@@ -1,43 +1,43 @@
 {
   "navbar": {
-  "liens": [
-    { "texte": "Home" },
-    { "texte": "Identity & Pillars" },
-    { "texte": "Services" },
-    { "texte": "Products" },
-    { "texte": "Mission & Values" },
-    { "texte": "Madagascar Vanilla" },
-    { "texte": "Contact" }
-  ]
+    "liens": [
+      { "texte": "Home" },
+      { "texte": "Identity & Pillars" },
+      { "texte": "Madagascar Vanilla" },
+      { "texte": "Products" },
+      { "texte": "Missions & Values" },
+      { "texte": "Photos" },
+      { "texte": "Contacts" }
+    ]
   },
 
   "accueil": {
     "txt1": "Welcome",
     "txt2": "To",
     "txt3": "UNM",
-
     "sousTitre": "Universe of Northern Madagascar",
-    "description": "Based in Sambava, the vanilla capital of the SAVA region, we share with the world the authentic taste and fragrance of Madagascar’s finest vanilla, grown with passion and expertise.",
+    "sousTitre1": "Vanilla (Vanilla Planifolia) preparation & export company",
+    "description": "From Sambava, the vanilla capital of the SAVA region, we share with the world the authentic taste and aroma of the finest Madagascar vanilla, cultivated with passion and expertise.",
     "bouton": "See more"
   },
 
   "quiSommesNous": {
-    "titre": "About Us",
+    "titre": "Who We Are",
     "intro": {
-      "titreIntro": "UNM: Universe of Northern Madagascar",
-      "paragraphe1": "UNM was founded in 2016 in Sambava, Madagascar, by its founder and CEO LUO MING. Driven by passion, the company emerged with a unique mission: to share the exceptional taste and aroma of Madagascar vanilla across the globe.",
-      "paragraphe2": "In 2024, UNM reached a major milestone by exporting several tons of vanilla, providing stable income to around fifty workers during a particularly challenging year for Madagascar. Small but united, our team is above all a family, bonded by years of collaboration and a shared purpose."
+      "titreIntro": "UNM: Universe North of Madagascar",
+      "paragraphe1": "UNM was founded in 2016 in Sambava, Madagascar, by its founder and CEO LUO MING. Driven by passion, the company was born with a unique mission: to carry the exceptional taste and aroma of Madagascar vanilla to every corner of the world.",
+      "paragraphe2": "In 2024, UNM reached a major milestone by exporting several tons of vanilla, ensuring stable income for around fifty workers during a particularly difficult year in Madagascar. Small but united, our team is above all a family, strengthened by years of collaboration and a shared goal."
     },
     "liste": [
       "Traceability",
       "Quality",
       "Sustainability"
     ],
-    "citation": "These commitments rely on a fully controlled value chain: from harvesting to international shipping, ensuring vanilla that is 100% traceable, safe, and sustainable.",
+    "citation": "These commitments rely on a fully controlled value chain: from harvesting to international shipment, ensuring vanilla that is 100% traceable, safe, and sustainable.",
     "piliers": [
       {
         "titre": "Premium Quality",
-        "description": "Strict selection, controlled preparation, and export processes aligned with international standards: our vanilla meets the demands of the most discerning markets."
+        "description": "Strict selection, controlled preparation and export meeting international standards: our vanilla meets the expectations of the most demanding markets."
       },
       {
         "titre": "Expertise & Know-How",
@@ -45,7 +45,7 @@
       },
       {
         "titre": "Human & Social Impact",
-        "description": "We value local work, ensure fair income, and contribute to the development of vanilla-producing communities."
+        "description": "We promote local work, guarantee fair income, and contribute to the development of vanilla-producing communities."
       }
     ]
   },
@@ -54,66 +54,66 @@
     "titre": "Preparation Processes",
     "etapes": [
       {
-        "titre": "1. Planting and Growth",
-        "description": "Vanilla takes several years to develop. It usually takes 3 to 4 years after planting for the first flowers to appear."
+        "titre": "1. Plantation and Growth",
+        "description": "Vanilla takes several years to grow. It takes 3 to 4 years after planting for the first flowers to appear."
       },
       {
         "titre": "2. Manual Pollination",
-        "description": "Each flower is hand-pollinated. Growers use thin sticks to connect the male and female parts of the flower, a delicate process that takes only a few seconds per flower."
+        "description": "Each flower is hand-pollinated. Farmers use thin sticks to connect the male and female parts of the flower—a meticulous task that lasts only a few seconds per flower."
       },
       {
         "titre": "3. Pod Maturation",
-        "description": "Nine months are required to obtain fully mature pods ready for harvest. Only the best—well-formed and perfectly ripe—continue to the next steps."
+        "description": "Nine months are needed to obtain perfectly ripe pods ready for harvest. Only the best, well-formed and fully mature ones continue the process."
       },
       {
         "titre": "4. Traditional Preparation",
-        "description": "Blanching, sweating, sun-drying, then curing: a long process that reveals the characteristic aroma, color, and suppleness of premium vanilla."
+        "description": "Scalding, sweating, sun-drying, then curing: a long process that reveals the aroma, color, and suppleness expected from premium vanilla."
       },
       {
-        "titre": "5. Packaging and Preservation",
-        "description": "Pods are graded, sorted, and packed according to international standards, then stored under optimal conditions for export."
+        "titre": "5. Packaging and Storage",
+        "description": "Pods are graded, sorted and packed according to international standards, then stored under optimal conditions before shipment."
       }
     ]
   },
 
   "services": {
     "titre": "The Story of Exceptional Vanilla",
-    "intro": "Driven by a genuine passion for vanilla, we master every post-harvest step—from green pod selection to export—so we can share authenticity, aromatic richness, and unique savoir-faire with our customers.",
+    "intro": "Driven by a true passion for vanilla, we master and enhance each stage after harvest—from selecting green pods to exporting them—to offer our clients authenticity, aromatic richness, and the unique craftsmanship behind each pod.",
     "sousTitre": "OUR PRODUCTS",
     "miseEnAvant": "we prepare.",
-    "description": "Whether you need three pods or several containers, we supply premium vanilla for everyone: consumers, food lovers, gourmet chefs, cosmetic brands, creative cooks, and agro-industry professionals.",
+    "description": "Whether you need three pods or several containers, we provide premium vanilla to everyone: consumers, food lovers, gourmet chefs, cosmetic companies, creative cooks, and actors in the food industry.",
     "etapes": [
       {
         "titre": "Vanilla Pods: Premium Quality",
-        "texte": "Plump, supple, and intensely fragrant pods, graded by lengths ranging from 15 to 20 cm. Often known as Gourmet and TK."
+        "texte": "Fleshy, supple, intensely fragrant pods, graded by length from 15 to 20 cm. Also known as Gourmet and TK."
       },
       {
         "titre": "Vanilla Cuts",
-        "texte": "Carefully cut pieces of pods, ideal for infusions and preparations that require strong aromatic power at a controlled cost."
+        "texte": "Carefully cut pod pieces, perfect for infusions and preparations requiring strong aromatic power at a controlled cost."
       },
       {
         "titre": "Vanilla Powder",
-        "texte": "100% natural powder made from dried vanilla pods finely ground, ideal for seasoning pastries, ice creams, and beverages."
+        "texte": "100% natural powder made from dried vanilla pods finely ground, ideal for flavoring pastries, ice creams, and beverages."
       },
       {
         "titre": "Vanilla Caviar",
-        "texte": "Pure vanilla seeds extracted from the pod, offering exceptional aromatic intensity for high-end culinary creations."
+        "texte": "Pure vanilla seeds extracted from the pod, ready to use, offering exceptional aromatic intensity for high-end culinary creations."
       }
     ]
   },
 
   "produits": {
-    "titre": "The Quality of Our Products",
+    "titre": "The Qualities of Our Products",
     "articles": [
       {
         "id": 1,
-        "nom": "Premium Vanilla Beans",
+        "nom": "Premium Vanilla Pods",
         "caracteristiques": [
-          "Perfect suppleness: Bends without breaking, indicating ideal moisture and preserved freshness.",
-          "Plump and voluminous: Full, generous pods rich in seeds and aroma.",
-          "Length and uniformity: Generally 14 to 18 cm, with consistent sizing reflecting optimal maturation.",
-          "Intense and complex aroma: Rich, warm vanilla fragrance, highlighting the finesse of natural vanillin.",
-          "Impeccable appearance: Uniform dark-brown color, slightly glossy surface, no defects or cracks, visible seeds inside."
+          "Perfect suppleness: Bends without breaking, proof of optimal humidity and preserved freshness.",
+          "Fleshy and voluminous: Full, generous pods, guaranteeing high seed and aroma content.",
+          "Length and uniformity: Generally 14 to 18 cm, with consistent size reflecting ideal maturation.",
+          "Intense and complex aroma: Rich, sweet, warm vanilla fragrance expressing the finesse of natural vanillin.",
+          "Impeccable appearance: Uniform dark-brown color, slightly shiny surface, no defects or cracks, visible seeds inside."
         ],
         "info": "Store away from heat and light, in an airtight container."
       },
@@ -121,28 +121,29 @@
         "id": 2,
         "nom": "Vanilla Seeds",
         "caracteristiques": [
-          "Exceptionally intense aroma: Seeds rich in natural vanillin, offering a deep, warm, refined fragrance.",
-          "Fine and consistent texture: Black, shiny, uniform seeds, indicative of well-matured pods.",
-          "Perfect purity: Made exclusively from premium pods, with no added sugar, alcohol, or artificial flavoring.",
-          "Elegant and high-end appearance: Small black grains add a refined touch to desserts, pastries, and sauces.",
-          "Immediate aromatic power: Seeds release intense aroma instantly, even in small quantities."
+          "Exceptionally intense aroma: Seeds rich in natural vanillin, offering a deep, warm, refined fragrance ideal for gastronomy.",
+          "Fine and consistent texture: Black, shiny, uniform seeds—proof of well-matured and perfectly cured pods.",
+          "Impeccable purity: Extracted exclusively from premium pods, with no added sugar, alcohol, or artificial flavors.",
+          "Elegant, high-end visual: Small black grains add a refined touch to creams, pastries, and sauces.",
+          "Immediate aromatic power: Seeds instantly release their fragrance, allowing intense flavoring even in small quantities."
         ],
-        "info": "Ideal for fine pastry, ice creams, and gourmet infusions."
+        "info": "Ideal for fine pastries, ice creams, and gourmet infusions."
       }
     ]
   },
 
   "engagements": {
-    "titre": "Mission & Vision",
-    "description": "We are a passionate and skilled team, committed to producing and exporting superior-quality vanilla while respecting our partners and the environment. Our ambition is to be a responsible and recognized player in the industry, ensuring products that meet international standards, are fully traceable, and create sustainable impact.",
+    "titre1": "Mission and Vision",
+    "titre2": "Values",
+    "description": "We are a passionate and skilled team, committed to producing and exporting superior-quality vanilla while respecting our partners and the environment. Our ambition is to be a responsible, recognized player in the industry by guaranteeing products that meet international standards, are fully traceable, and have a sustainable impact.",
     "articles": [
-      "Integrity – We act with transparency and honesty in every decision.",
-      "Rigor – We apply high standards to ensure the quality of our commitments.",
-      "Human development – We encourage growth and fulfillment for every collaborator.",
+      "Integrity – We act with transparency and honesty in all our decisions.",
+      "Rigor – We apply high standards to guarantee the quality of our commitments.",
+      "Human development – We encourage growth and fulfillment for each team member.",
       "Environmental respect – We work to reduce our ecological impact and protect natural resources.",
-      "Sustainable partnerships – We build strong, responsible relationships to create long-term value in the vanilla industry."
+      "Sustainable partnerships – We build strong, responsible relationships to create long-term value in the vanilla sector."
     ],
-    "regles": "UNM complies with <1> FSSC 22000, ISO/TS 22002-1, and HACCP </1> standards, ensuring safety, quality, and transparency at every step."
+    "regles": "UNM applies the requirements of <1> FSSC 22000, ISO/TS 22002-1 and HACCP </1>, guaranteeing safety, quality, and transparency at every stage."
   },
 
   "footer": {
@@ -152,24 +153,24 @@
         "articles": [
           "Home",
           "Identity & Pillars",
-          "Services",
-          "Products",
-          "Mission & Values",
           "Madagascar Vanilla",
-          "Contact"
+          "Products",
+          "Missions & Values",
+          "Photos",
+          "Contacts"
         ]
       },
       {
         "titre": "Information & Contact",
         "articles": [
-          "Address: Bel souvenir, Ampandrozonana Sector n°4, CU Sambava",
+          "Address: Bel Souvenir, Ampandrozonana Sector n°4, CU Sambava",
           "Email: lm425600@gmail.com",
           "Phone: +261 34 76 321 28"
         ]
       }
     ],
     "slogan": "An exceptional aroma, carried by passion in every pod.",
-    "langue": "English (EN)",
+    "langue": "English (En)",
     "copyright": "© 2025 Mahiratra Groupe Antalaha."
   },
 
@@ -184,7 +185,7 @@
   },
 
   "gallery": {
-    "title": "Relive our best moments in images",
+    "title": "Relive our highlights in pictures",
     "close": "Close"
   }
 }

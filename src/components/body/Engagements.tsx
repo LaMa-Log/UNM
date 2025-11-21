@@ -9,15 +9,15 @@ export default function Engagements() {
   return (
     <section
       id="Engagements"
-      className="flex flex-col  justify-center items-center w-full h-screen mb-0 md:mb-20"
+      className="flex flex-col  justify-center items-center w-full h-full "
     >
         <div 
-        className="relative w-full min-h-[500px] sm:min-h-[600px] lg:h-[700px] mb-6 overflow-hidden shadow-2xl">
+        className="relative w-full shadow-2xl">
         {/* --- Image de fond --- */}
         <motion.img
           src={couverture}
           alt="culture"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-screen object-cover "
           initial={{ scale: 1.1, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
@@ -26,27 +26,27 @@ export default function Engagements() {
 
         {/* --- Couche d’ombre --- */}
         <div>
-          <div className="absolute inset-0 bg-black/40 md:hidden z-0"></div>
-          <div className="absolute inset-0 hidden md:block bg-linear-to-l from-green-900/85 via-green-800/70 to-transparent z-0"></div>
+          <div className="absolute inset-0 w-full h-screen bg-black/40 md:hidden z-0"></div>
+          <div className="absolute inset-0 w-full h-screen hidden md:block bg-linear-to-l from-green-900/85 via-green-800/70 to-transparent z-0"></div>
         </div>
 
         {/* --- Contenu principal --- */}
-        <div className="relative z-10 flex flex-col lg:flex-row justify-end items-center h-full px-4 sm:px-10 lg:px-20 py-20 text-white">
+        <div className="relative z-10 flex flex-col lg:flex-row justify-end items-center h-full px-4 sm:px-10 lg:px-20 py-10  text-white">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
             viewport={{ amount: 0.3, once: false }}
-            className="max-w-2xl w-full space-y-6"
+            className="max-w-4xl w-full h-screen space-y-4"
           >
             {/* --- TITRE (aligné à droite et justifié) --- */}
             <motion.h1
-              className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center md:text-right leading-tight"
+              className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center md:text-right leading-tight"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              {t("engagements.titre")}
+              {t("engagements.titre1")}
             </motion.h1>
 
             {/* --- DESCRIPTION (alignée à droite et justifiée) --- */}
@@ -62,11 +62,19 @@ export default function Engagements() {
             </motion.p>
 
             {/* --- LISTE DES ENGAGEMENTS (alignés à gauche) --- */}
-            <div className="space-y-4 ml-0 md:ml-20 mt-8 text-left">
+            <motion.h1
+              className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center md:text-right  leading-tight"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+            >
+              {t("engagements.titre2")}
+            </motion.h1>
+            <div className="space-y-3 ml-0 md:ml-20  text-left">
               {engagements.map((text, index) => (
                 <motion.div
                   key={index}
-                  className="w-full flex items-start gap-3 sm:gap-6 justify-start"
+                  className="w-full flex items-start gap-3 sm:gap-3 justify-start"
                   initial={{ opacity: 0, x: 40 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.6, delay: index * 0.2 }}
@@ -80,7 +88,7 @@ export default function Engagements() {
                     {index + 1}
                   </motion.div>
 
-                  <p className="max-w-4xl text-gray-100 text-sm sm:text-base text-left">
+                  <p className="max-w-5xl text-gray-100 text-sm sm:text-base text-left">
                     {text}
                   </p>
                 </motion.div>
@@ -90,7 +98,7 @@ export default function Engagements() {
 
         </div>
       </div>
-      <div className="flex  justify-center  px-4 sm:px-6 md:px-4 ">
+      <div className="flex  justify-center  px-4 sm:px-6 md:px-4 md:pt-10 ">
           <div className=" text-xl md:text-[2rem] text-center">
             <Trans
               i18nKey="engagements.regles"
