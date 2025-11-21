@@ -23,7 +23,7 @@ export default function Preparations() {
         whileInView={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 40 }}
         transition={{ duration: 0.6 }}
-        viewport={{ amount: 0.3 }}
+
         className="text-2xl md:text-4xl font-bold text-start ml-6 md:ml-30 text-gray-800 mb-5 md:mb-10"
       >
          {/* {t("preparations.titre")} */}
@@ -53,9 +53,8 @@ export default function Preparations() {
             {/* Texte */}
             <div className="w-full lg:w-1/2">
               <motion.h3
-                initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+                initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 0 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
                 transition={{ duration: 0.6 }}
                 viewport={{ amount: 0.3 }}
                 className="text-2xl md:text-3xl font-semibold text-green-700 mb-3"
@@ -65,7 +64,6 @@ export default function Preparations() {
               <motion.p
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
                 viewport={{ amount: 0.3 }}
                 className="text-gray-700 leading-relaxed text-justify text-xl"

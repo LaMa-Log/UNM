@@ -12,7 +12,7 @@ export default function Engagements() {
       className="flex flex-col  justify-center items-center w-full h-full "
     >
         <div 
-        className="relative w-full shadow-2xl">
+        className="relative w-full h-screen shadow-2xl">
         {/* --- Image de fond --- */}
         <motion.img
           src={couverture}
@@ -31,7 +31,7 @@ export default function Engagements() {
         </div>
 
         {/* --- Contenu principal --- */}
-        <div className="relative z-10 flex flex-col lg:flex-row justify-end items-center h-full px-4 sm:px-10 lg:px-20 py-10  text-white">
+        <div className="relative z-10 flex flex-col lg:flex-row justify-end items-center h-full  top-20 px-4 sm:px-10 lg:px-20 py-10  text-white">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -88,7 +88,7 @@ export default function Engagements() {
                     {index + 1}
                   </motion.div>
 
-                  <p className="max-w-5xl text-gray-100 text-sm sm:text-base text-left">
+                  <p className="max-w-3xl text-gray-100 text-sm sm:text-base text-left">
                     {text}
                   </p>
                 </motion.div>
