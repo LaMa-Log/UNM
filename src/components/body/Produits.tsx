@@ -86,3 +86,112 @@ const Products = () => {
 };
 
 export default Products;
+
+
+// {
+//   "_id": {
+//     "$oid": "693976efa5901a2e07fd4811"
+//   },
+//   "titreProduit": {
+//     "fr": "Les qualités de nos produits "
+//   },
+//   "descProduit": {
+//     "fr": " "
+//   },
+//   "qualites": [
+//     {
+//       "titreContenu": {
+//         "fr": "Gousse de vanille de qualité supérieure"
+//       },
+//       "descContenu": {
+//         "fr": " "
+//       },
+//       "items": [
+//         {
+//           "fr": "Souplesse parfaite : Se plie sans se casser, témoignant d’une humidité optimale et d’une fraîcheur conservée.",
+//           "_id": {
+//             "$oid": "693976efa5901a2e07fd4813"
+//           }
+//         },
+//         {
+//           "fr": "Charnue et volumineuse : Gousse pleine, généreuse, gage d’une teneur élevée en graines et en arômes.",
+//           "_id": {
+//             "$oid": "693976efa5901a2e07fd4814"
+//           }
+//         },
+//         {
+//           "fr": "Longueur et uniformité : Généralement de 14 à 18 cm, avec une taille régulière qui reflète une maturation idéale.",
+//           "_id": {
+//             "$oid": "693976efa5901a2e07fd4815"
+//           }
+//         },
+//         {
+//           "fr": "Arôme intense et complexe : Parfum riche, doux, chaud et vanillé, révélant toute la finesse de la vanilline naturelle.",
+//           "_id": {
+//             "$oid": "693976efa5901a2e07fd4816"
+//           }
+//         },
+//         {
+//           "fr": "Aspect impeccable : Couleur brun foncé uniforme, surface légèrement brillante, sans défauts ni cassures, grains visibles à l’intérieur.",
+//           "_id": {
+//             "$oid": "693976efa5901a2e07fd4817"
+//           }
+//         }
+//       ],
+//       "photoContenu": "/uploads/1765373679504-626499972.jpeg",
+//       "_id": {
+//         "$oid": "693976efa5901a2e07fd4812"
+//       }
+//     },
+//     {
+//       "titreContenu": {
+//         "fr": "Graines de vanille"
+//       },
+//       "descContenu": {
+//         "fr": " "
+//       },
+//       "items": [
+//         {
+//           "fr": "Arôme exceptionnellement intense : Des graines riches en vanilline naturelle, offrant un parfum profond, chaud et raffiné, idéal pour une utilisation gastronomique.",
+//           "_id": {
+//             "$oid": "693976efa5901a2e07fd4819"
+//           }
+//         },
+//         {
+//           "fr": "Texture fine et régulière : Graines noires, brillantes et homogènes, preuve d’une gousse bien maturée et parfaitement affinée.",
+//           "_id": {
+//             "$oid": "693976efa5901a2e07fd481a"
+//           }
+//         },
+//         {
+//           "fr": "Pureté irréprochable : Issues exclusivement de gousses premium, sans ajout de sucre, d’alcool ou d’arômes artificiels.",
+//           "_id": {
+//             "$oid": "693976efa5901a2e07fd481b"
+//           }
+//         },
+//         {
+//           "fr": "Visuel élégant et haut de gamme : Les petits grains noirs ajoutent une touche raffinée aux crèmes, pâtisseries et sauces, très appréciée dans la haute cuisine.",
+//           "_id": {
+//             "$oid": "693976efa5901a2e07fd481c"
+//           }
+//         },
+//         {
+//           "fr": "Puissance aromatique immédiate : Les graines libèrent instantanément leur parfum, permettant d’aromatiser intensément même en petite quantité.",
+//           "_id": {
+//             "$oid": "693976efa5901a2e07fd481d"
+//           }
+//         }
+//       ],
+//       "photoContenu": "/uploads/1765373679508-863931763.jpeg",
+//       "_id": {
+//         "$oid": "693976efa5901a2e07fd4818"
+//       }
+//     }
+//   ],
+//   "createdAt": {
+//     "$date": "2025-12-10T13:34:39.605Z"
+//   },
+//   "updatedAt": {
+//     "$date": "2025-12-10T13:34:39.605Z"
+//   }
+// }   

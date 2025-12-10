@@ -2,10 +2,28 @@ import { motion } from "framer-motion";
 import photo1 from "../../assets/UNM/photo1.jpeg";
 import { useTranslation } from "react-i18next";
 import Typewriter from "../head/typerwrite";
+import  { useEffect, useState } from "react";
+import axios from "axios";
+import i18n from "@/i18n/i18n";
 
 
 export default function SlideHome() {
-  const { t } = useTranslation();
+  const { t , i18n } = useTranslation();
+  const [content, setContent] = useState<any>(null);
+
+  // Charger les textes depuis le backoffice
+  useEffect(() => {
+  axios
+    .get(`http://localhost:3000/api/profiles?lang=${i18n.language}`)
+    .then((res) => {
+      if (res.data && res.data.length > 0) {
+        setContent(res.data[0]); 
+      }
+      console.log("Contenu chargé pour le profil :", res.data);
+    })
+    .catch((err) => console.error("Erreur chargement contenu:", err));
+  }, [i18n.language]);
+
 
   const handleClick = (id: string) => {
     const section = document.getElementById(id);
@@ -26,7 +44,7 @@ export default function SlideHome() {
         className="w-full md:w-1/2 h-1/2 md:h-full overflow-hidden"
       >
         <img
-          src={photo1}
+          src={`http://localhost:3000${content?.profilePhoto}`}
           alt="Slide1"
           className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-1000 ease-out"
         />
@@ -47,12 +65,12 @@ export default function SlideHome() {
             {t("accueil.sousTitre")}
           </h2>
           <p className="text-[14px] sm:text-[14px] md:text-[16px] md:ml-3 font-medium tracking-tight">
-            {t("accueil.sousTitre1")}
+            {content?.title}
           </p>
         </div>
 
         <p className=" text-base md:text-xl leading-relaxed max-w-lg">
-          {t("accueil.description")}
+          {content?.title_desc}
         </p>
 
         <div className="w-full flex justify-center md:justify-end mt-4">
